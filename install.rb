@@ -135,7 +135,8 @@ class Installer
 
     unless @s.version
       @s.attribute(:version) {
-        latest_version
+        # latest_version
+	'11.1'
       }
     end
 
